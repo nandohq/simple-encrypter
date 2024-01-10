@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encrypt | Decrypt</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <article class="form">
+            <h1>Encrypt | Decrypt</h1>
+            <input type="text" name="original" id="original" required>
+            <div id="error" class="error"></div>
+            <div class="controls">
+                <button id="encrypt" class="button primary">Encrypt</button>
+                <button id="decrypt" class="button">Decrypt</button>
+            </div>
+            <hr>
+            <div id="result" class="result">
+                <div id="action" class="action">
+                    <hr>
+                    <button id="use" class="button icon" title="Usar resultado">
+                        <img src="./assets/icons/arrow-up.svg" alt="Arrow up">
+                    </button>
+                </div>
+                <div id="content" class="content"></div>
+            </div>
+        </article>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
